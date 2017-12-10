@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<modules>
+    <Positif_Poste>
+    <version>1.0.0</version>
+    </Positif_Poste>
+</modules>
+<frontend>
+    <routers>
+        <poste>
+        <use>standard</use>
+        <args>
+        <module>Positif_Poste</module>
+        <frontName>poste</frontName>
+        </args>
+        </poste>
+    </routers>
+</frontend>
+<global>
+    <models>
+        <poste>
+            <class>Positif_Poste_Model</class>
+        </poste>
+    </models>
+    <helpers>
+        <poste>
+            <class>Positif_Poste_Helper</class>
+        </poste>
+    </helpers>
+    <blocks>
+        <poste>
+            <class>Positif_Poste_Block</class>
+        </poste>
+    </blocks>
+</global>
+<default>
+    <payment>
+        <poste>
+            <model>poste/standard</model>
+            <active>1</active>
+            <order_status>pending</order_status>
+            <title>POSTE E-DINAR</title>
+            <payment_action>sale</payment_action>
+            <submit_url>/cgi-bin/edinar/transact.cgi</submit_url>
+            <merchant_id>Merchant id</merchant_id>
+            <merchant_name>Merchant name</merchant_name>
+            <allowspecific>0</allowspecific>
+            <sort_order>1</sort_order>
+        </poste>
+    </payment>
+</default>
+</config>

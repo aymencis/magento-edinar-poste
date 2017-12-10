@@ -1,0 +1,50 @@
+A {
+	COLOR: #6e75a9; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #6e75a9; TEXT-DECORATION: underline
+}
+.inputfxp {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #ffaa44; FONT-SIZE: 8pt; SCROLLBAR-HIGHLIGHT-COLOR: #f0f0f0; SCROLLBAR-SHADOW-COLOR: #f0f0f0; COLOR: #000000; SCROLLBAR-ARROW-COLOR: #f0f0f0; FONT-FAMILY: Arial, Helvetica, sans-serif; scrollbar-dark-shadow-color: #F0F0F0
+}
+.titre {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #008080
+}
+.lieninterne {
+	FONT-SIZE: 9px; COLOR: #6699ff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.cellule {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.cellule2 {
+	FONT-SIZE: 7.5pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.inputfxp2 {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, 
+Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.boolean {
+	FONT-SIZE: 9px; COLOR: #cc0000
+}
+.selectboolean {
+	FONT-SIZE: 10px; COLOR: #390055; FONT-FAMILY: Arial, 
+Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.dmbGroup {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #00002f; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.titretab {
+	FONT-WEIGHT: bold; FONT-SIZE: 8.5pt; COLOR: #002f17
+}
+A.titrelien:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.5pt; COLOR: #bb5013; FONT-STYLE: normal; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+A.titrelien:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.5pt; COLOR: #bb5013; FONT-STYLE: normal; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+A.titrelien:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 7.5pt; FONT-STYLE: normal; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
